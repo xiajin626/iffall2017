@@ -1,0 +1,29 @@
+/*
+	css comment
+*/
+html {
+	color: black;
+	font-family: monospace;
+	background-color: #f2f0ef;
+}
+strong {
+	color: black;
+}
+em {
+	color: black;
+}
+#movie-title {
+	font-size: 36px;
+	color: #f96d09;
+}
+#movie-subtitle {
+	font-size: 24px;
+	color: black;
+}
+.script {
+	color: #7f7b7a;
+	font-family: monospace;
+}
+#tone {
+	color: #f96d09;
+}
