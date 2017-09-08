@@ -1,0 +1,23 @@
+/*
+	css comment
+*/
+html {
+	color: black;
+	font-family: monospace;
+	background-color: white;
+	text-align: center;
+}
+#song {
+	color:#e23434;
+	font-family: sans-serif;
+	font-size: 100px;
+}
+#singer {
+	font-family: monospace;
+}
+em {
+	color: #808080;
+}
+.red{
+	color:#e23434;
+}
