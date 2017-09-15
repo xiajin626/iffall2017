@@ -1,0 +1,35 @@
+html {
+	color: black;
+	font-family: 'Catamaran', sans-serif;
+	background-color: white;
+	text-align: center;
+	font-size: 18px;
+}
+#song {
+	color:#e23434;
+	font-family: 'Squada One', cursive;
+	font-size: 90px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+#singer {
+	font-weight: bold;
+}
+em {
+	color: #F08080;
+}
+.red{
+	color:#e23434;
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+.chorus {
+	font-style: italic;
+	color:#708090;
+	margin-top: -2em;
+}
+.end {
+	margin-bottom: 2em;
+}
