@@ -1,0 +1,49 @@
+header {
+	margin-bottom: 3rem;
+}
+body {
+	line-height: 1.6;
+}
+.see-all {
+	text-transform: uppercase;
+	font-size: 0.8em;
+}
+h1 {
+	font-size: 2.5rem;
+	border-top: 1px;
+}
+h2 {
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+h1,
+h2 {
+	font-weight: 100;
+}
+.cast img {
+	width: 100%;
+}
+.cast li {
+	width: 25%;
+	font-size: 0.8rem;
+}
+.selected {
+	font-weight: bold;
+	color: black;
+}
+div:first-of-type {
+	font-weight: bold;
+}
+.cast ul li a :last-child {
+	font-style: italic;
+}
+
+.seasons ul li:last-child::after {
+	content: '* In Production';
+    display: block;
+    font-size: 0.7rem;
+    color: #999;
+}
+.seasons ul li:nth-child(7):before {
+	content:'*';
+}
