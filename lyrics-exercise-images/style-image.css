@@ -1,0 +1,46 @@
+html {
+	color: black;
+	font-family: 'Catamaran', sans-serif;
+	background-color: white;
+	text-align: center;
+	font-size: 18px;
+}
+#song {
+	color:#e23434;
+	font-family: 'Squada One', cursive;
+	font-size: 150px;
+	font-weight: bold;
+}
+#singer {
+	font-weight: bold;
+	text-decoration: underline;
+}
+em {
+	color: #F08080;
+}
+.red{
+	color:#e23434;
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+.chorus {
+	font-style: italic;
+	color: white;
+	margin-top: -2em;
+}
+.end {
+	margin-bottom: 2em;
+}
+.background {
+	background-image: url(http://static.tumblr.com/es3dflv/Z40nasxro/albumcover_wallpaper.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+h1 {
+	background-image: url(https://laughingsquid.com/wp-content/uploads/2014/11/kazuhiko-okushita-3.gif);
+	background-position: center;
+}
