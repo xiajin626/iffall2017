@@ -1,0 +1,246 @@
+body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			#main_content {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+			a#btn_spotify {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #2ebd59;
+				border: 2px solid #2ebd59;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+
+			a#btn_twitter {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #56cdf1;
+				color: #fff;
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_twitter:hover {
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: #2ebfec; /* Old browsers */
+				background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+			}
+
+
+			a#btn_amazon {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+			}
+
+			a#btn_amazon:hover {
+				background-color: #fc9a18;
+			}
+
+
+			a#btn_indiegogo {
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #eb1478;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+			}
+
+			a#btn_indiegogo:hover {
+				color: #fff;
+				background-color: #eb1478;
+			}
+
+			a#btn_cococola img:hover {
+				background-color: black;
+			}
+			img {
+			    display: block;
+			    max-width: 130px;
+			    margin: auto;
+			    margin-top: 100px;
+			}
+			a#btn_apple i {
+				display: block;
+			    font-size: 70px;
+			    margin: auto;
+			    margin-top: 80px;
+			}
+			a#btn_apple i:hover {
+				color: silver;
+				text-decoration: underline;
+			}
+			a#btn_facebook img {
+				display: block;
+			    font-size: 80px;
+			    margin: auto;
+			    margin-top: 100px;
+			}
+			a#btn_facebook img:hover {
+				border-image: black;
+			}
+			a#btn_instagram img {
+				display: block;
+			    font-size: 80px;
+			    margin: auto;
+			    margin-top: 80px;
+			    padding-top: 0px;
+			}
+			a#btn_instagram img:hover {
+				background-color: yellow;
+			}
+			a#btn_npr img {
+				display: block;
+			    font-size: 80px;
+			    margin: auto;
+			    margin-top: 60px;
+			}
+			a#btn_nike img {
+				display: block;			 
+			    margin: auto;
+			    margin-top: 80px;
+			}
+			a#btn_nike img:hover {
+				background-color: red;
+			}
+			a#btn_samsung img {
+				display: block;			 
+			    margin: auto;
+			    margin-top: 110px;
+			}
+			a#btn_samsung img:hover {
+				background-color: blue;
+			}
+			a#btn_lyft img {
+				display: block;			 
+			    margin: auto;
+			    margin-top: 80px;
+			}
+			a#btn_lyft img:hover {
+				background-color: pink;
+			}
+			a#btn_moo img {
+				display: block;			 
+			    margin: auto;
+			    margin-top: 100px;
+			}
+			a#btn_moo img:hover {
+				background-color: green;
+			}
+			a#btn_ofa img {
+				display: block;			 
+			    margin: auto;
+			    margin-top: 60px;
+			}
+			a#btn_nbc img {
+				display: block;			 
+			    margin: auto;
+			    margin-top: 80px;
+			}
+			a#btn_newyorker img {
+				display: block;			 
+			    margin: auto;
+			    margin-top: 120px;
+			}
+			a#btn_newyorker img:hover {
+				background-color: pink;
+			}
+			a#btn_fire i {
+				display: block;			 
+			    margin: auto;
+			    margin-top: 80px;
+			    font-size: 80px;
+			}
+			a#btn_apple i:hover {
+				color: orange;
+			}
+			a#btn_foreflight i {
+				display: block;
+			    font-size: 70px;
+			    margin: auto;
+			    margin-top: 80px;
+			}
+			a#btn_foreflight i:hover {
+				color: green;
+			}
+			a#btn_water img {
+				display: block;			 
+			    margin: auto;
+			    margin-top: 140px;
+			}
+			a#btn_mk img {
+				display: block;			 
+			    margin: auto;
+			    margin-top: 140px;
+			}
+			a#btn_ibm img:hover {
+				background-color: yellow;
+			}
