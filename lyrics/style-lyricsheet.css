@@ -1,0 +1,67 @@
+html {
+	color: black;
+	font-family: 'Gudea', sans-serif;
+	background-color: white;
+	text-align: center;
+	font-size: 18px;
+	line-height: 36px;
+}
+#song {
+	color:#e23434;
+	font-family: 'Anton', sans-serif;
+	color: #e23434;
+	position: fixed;
+	font-size: 300px;
+	text-align: center;
+	bottom:10px;
+	left: 100px;
+	text-decoration: underline;
+}
+#song:hover {
+	color: grey;
+}
+#singer {
+	font-family: 'Anton', sans-serif;
+	color: white;
+	font-size: 75px;
+	position: fixed;
+	text-align: center;
+	top:10px;
+	right:200px;
+}
+em {
+	color: #F08080;
+}
+.red{
+	color:#e23434;
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+.red:hover {
+	color: grey;
+}
+.chorus {
+	font-style: italic;
+	margin-top: -2em;
+	color: grey;
+}
+.end {
+	margin-bottom: 2em;
+}
+body {
+	background-image: url(https://images.unsplash.com/photo-1502142640479-5d4f2651ac2a?dpr=1&auto=format&fit=crop&w=1950&h=&q=60&cs=tinysrgb&crop=);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#lyric {
+	margin: 800px;
+    background-color: white;
+    opacity: 0.8;
+    filter: alpha(opacity=60);
+}
