@@ -1,0 +1,89 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+.intro {
+	font-size: 100px;
+	letter-spacing: 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	width: 400px;
+	float: left;
+	position: fixed;
+}
+span {
+	color: #e23434;
+	text-decoration: underline;
+}
+#titlesinger {
+	font-size: 40px;
+}
+.section1 {
+	padding-top: 50px;
+	height: 500px;
+    background-color: white;
+    margin: auto;
+}
+#singer {
+	text-transform: uppercase;
+}
+.section1 img {
+	float: left;
+	padding-bottom: 20px;
+	padding-top: 0px;
+	padding-left: 80px;
+	height: 400px;
+	margin: auto;
+}
+.section1 p {
+	margin: auto;
+	color: black;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 20px;
+    text-align: left;
+    width: 800px;
+}
+.section2 {
+	padding-left: 20px;
+	text-align: center;
+	font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+}
+.background {
+	background-size: contain;
+	background-position: right;
+	transform: rotateX();
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-image: url(https://i.pinimg.com/736x/19/2e/34/192e34f58e20d3546991946b7bd106a0--black-and-white-drawing-black-and-white-portraits.jpg);
+}
+.red{
+	color:#e23434;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+.chorus {
+	font-style: italic;
+	color: grey;
+	margin-top: -2em;
+}
+.end {
+	margin-bottom: 5em;
+	margin-top: 1em;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+em {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
