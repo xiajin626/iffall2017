@@ -1,0 +1,56 @@
+body {
+	width: 90%;
+	max-width: 800px;
+	margin: auto;
+}
+@media screen and (min-width: 640px) {
+	body {
+		background-color: #eaf6ff;
+	}
+	h1 {
+		font-size: 2.5rem;
+	}
+}
+@media screen and (max-width: 500px) {
+	h1 {
+		font-size: 1.5rem;
+	}
+}
+li {
+	display: inline-block;
+	vertical-align: top;
+}
+ul {
+	padding-left: 0px;
+}
+.table1 aside {
+	max-width: 170px;
+	margin: 10px;
+	font-size: 0.8rem;
+}
+.table2 aside {
+	margin: 10%;
+}
+.table2 {
+	width: 100%;
+	display: inline-block;
+	font-size: 0.8rem;
+	padding-left: 0px;
+	vertical-align: top;
+}
+@media screen and (min-width: 480px) and (max-width: 640px) {
+	.table2 li {
+		width: 50%;
+	}
+}
+@media screen and (min-width: 640px) {
+	.table2 li {
+		width: 25%;
+	}
+}
+#stretchable-grid-items ul {
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
