@@ -1,0 +1,35 @@
+body {
+	font-family: 'Cormorant Garamond', serif;
+	width: 100%;
+	margin: auto;
+	max-width: 1200px;
+	text-transform: uppercase;
+}
+a {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+#card1 p {
+	text-align: right;
+	font-size: 30px;
+	line-height: 50px;
+	padding-top: 200px;
+	width: 300px;
+	float: right;
+	background-attachment: fixed;
+	background-size: contain;
+}
+@media screen and (min-width: 640px) {
+	body {
+		background-image: url(https://images.unsplash.com/photo-1498721454196-e1fe723c0374?auto=format&fit=crop&w=1349&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: contain;
+	p {
+		background-color: red;
+	}
+}
