@@ -1,0 +1,87 @@
+body {
+	margin: auto;
+}
+#header {
+    height: 80px;
+    padding-top: 20px;
+    background-color: black;
+}
+.button {
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Frank Ruhl Libre', serif;
+	margin-top: auto;
+	color: white;
+	letter-spacing: 10px;
+}
+#intro {
+	height: 750px;
+	background-image: url(image1.jpg); 
+	background-size: 100%;
+	background-repeat: no-repeat;
+	letter-spacing: 10px;
+	background-attachment: fixed;
+}
+#intro h1 {
+	font-size: 500px;
+	color: white;
+	margin-left: 200px;
+	margin-top: -40px;
+}
+#intro h2 {
+	font-family: 'Frank Ruhl Libre', serif;
+	color: white;
+	margin-top: -600px;
+    margin-left: 800px;
+    line-height: 50px;
+}
+#section1 {
+	height: 400px;
+	background-color: black;
+	text-align: left;
+	margin-top: -50px;
+}
+#section1 h2 {
+	font-family: 'Frank Ruhl Libre', serif;
+	letter-spacing: 10px;
+	color: white;
+	padding-top: 70px;
+    padding-left: 200px;
+}
+#section2 {
+	height: 400px;
+	background-color: black;
+	text-align: left;
+	margin-top: -50px;
+}
+#section2 h2 {
+	font-family: 'Frank Ruhl Libre', serif;
+	letter-spacing: 10px;
+	color: white;
+	padding-top: 70px;
+    padding-left: 200px;
+}
+#section3 {
+	height: 400px;
+	background-color: black;
+	text-align: left;
+	margin-top: -50px;
+}
+#section3 h2 {
+	font-family: 'Frank Ruhl Libre', serif;
+	letter-spacing: 10px;
+	color: white;
+	padding-top: 70px;
+    padding-left: 200px;
+}
+p {
+	color: white;
+	text-align: left;
+	margin-left: 200px;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 20px;
+	letter-spacing: 1.5px;
+	line-height: 30px;
+	margin-left: 200px;
+	width: 600px;
+}
