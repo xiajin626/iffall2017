@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text-html; charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>king-3</title>
+	<link rel="stylesheet" type="text/css" href="style-king.css">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+</head>
+<style type="text/css">
+	html {
+	background:url('king-pattern-3.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+	#jump-stars {
+		padding-left: 150pt;
+	}
+	#stars {
+	color: white;
+	position: absolute;
+	top: 48%;
+	left: 42.8%;
+	transform: translate(-50%,-50%);
+	}
+	#stars:hover:before 
+	{
+	transform: scale(1.1);
+	}
+	#stars:hover 
+	{
+	color: #778899;
+	text-shadow: 0 0 50px #FFFAFA;
+	}
+	ul li {
+	list-style: none;
+	float: left;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0.5em;
+	font-size: 20pt;
+	transform-origin: left;
+	animation: animate 3s infinite;
+	}
+	@keyframes animate {
+		0%
+		{
+			opacity: 0;
+		}
+		50%
+		{
+			opacity: 1;
+		}
+		100%
+		{
+			opacity: 0;
+		}
+	}
+</style>
+<body>
+	<div class="image-container fade">
+		<div class="text">
+
+			<a href="businessman-2.html">
+				<ul id="stars">
+					<li>S</li>
+					<li>T</li>
+					<li>A</li>
+					<li>R</li>
+					<li>S</li>
+				</ul>
+			</a>
+
+			<div>
+				His planet, the other planets, and all the stars. <br />
+				“Over all that?”<br />
+				<em>“Over all that.” </em><br />
+				<p id="jump-stars">“And the &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; obey you?” </p>
+				<br /><em>“Certainly they do. They obey instantly. I do not permit insubordination.”</em> <br />
+				Such power was a thing for the little prince to marvel at. 
+			</div>
+			<div class="title">KING 3</div>
+		</div>
+	</div>
+
+	<a class="prev" href="king-2.html">&#10094;</a>
+
+	<a href="home.html"><i class="fas fa-bars"></i></a>
+
+</body>
+</html>

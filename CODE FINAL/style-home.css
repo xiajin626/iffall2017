@@ -1,0 +1,214 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	list-style: none;
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0.5em;
+	transform-origin: left;
+}
+#rose {
+	font-size: 30pt;
+	font-weight: bold;
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	color: white;
+	transform: translate(-50%,-50%);
+	animation: animate-rose 10s infinite;
+}
+#rose:hover:before
+{
+	transform: scale(1.1);
+}
+#rose:hover
+{
+	color: #F08080;
+	text-shadow: 0 0 50px #FFFAFA;
+}
+@keyframes animate-rose {
+	0%
+	{
+		opacity: 0;
+	}
+	50%
+	{
+		opacity: 1;
+	}
+	100%
+	{
+		opacity: 0;
+	}
+}
+#fox {
+	font-size: 35pt;
+	font-weight: bold;
+	color: white;
+	position: absolute;
+	top: 60%;
+	left: 80%;
+	transform: translate(-50%,-50%);
+	animation: animate-fox 12s infinite;
+}
+#fox:hover:before
+{
+	transform: scale(1.1);
+}
+#fox:hover
+{
+	color: #FF7F50;
+	text-shadow: 0 0 50px #FFFAFA;
+}
+@keyframes animate-fox {
+	0%
+	{
+		opacity: 0;
+	}
+	50%
+	{
+		opacity: 1;
+	}
+	100%
+	{
+		opacity: 0;
+	}
+}
+#king {
+	font-size: 15pt;
+	position: absolute;
+	color: white;
+	top: 40%;
+	left: 60%;
+	transform: translate(-50%,-50%);
+	animation: animate-king 3s infinite;
+}
+#king:hover:before
+{
+	transform: scale(1.1);
+}
+#king:hover
+{
+	color: #DAA520;
+	text-shadow: 0 0 50px #FFFAFA;
+}
+@keyframes animate-king {
+	0%
+	{
+		opacity: 0;
+	}
+	50%
+	{
+		opacity: 1;
+	}
+	100%
+	{
+		opacity: 0;
+	}
+}
+#snake {
+	font-size: 20pt;
+	position: absolute;
+	color: white;
+	top: 55%;
+	left: 30%;
+	transform: translate(-50%,-50%);
+	animation: animate-snake 8s infinite;
+}
+#snake:hover:before
+{
+	transform: scale(1.1);
+}
+#snake:hover
+{
+	color: #4682B4;
+	text-shadow: 0 0 50px #FFFAFA;
+}
+@keyframes animate-snake {
+	0%
+	{
+		opacity: 0;
+	}
+	50%
+	{
+		opacity: 1;
+	}
+	100%
+	{
+		opacity: 0;
+	}
+}
+#hatman {
+	font-size: 15pt;
+	position: absolute;
+	color: white;
+	top: 21%;
+	left: 75%;
+	transform: translate(-50%,-50%);
+	animation: animate-hatman 6s infinite;
+}
+#hatman:hover:before
+{
+	transform: scale(1.1);
+}
+#hatman:hover
+{
+	color: #90EE90;
+	text-shadow: 0 0 50px #FFFAFA;
+}
+@keyframes animate-hatman {
+	0%
+	{
+		opacity: 0;
+	}
+	50%
+	{
+		opacity: 1;
+	}
+	100%
+	{
+		opacity: 0;
+	}
+}
+#businessman {
+	font-size: 15pt;
+	position: absolute;
+	color: white;
+	top: 74%;
+	left: 54%;
+	transform: translate(-50%,-50%);
+	animation: animate-businessman 8s infinite;
+}
+#businessman:hover:before
+{
+	transform: scale(1.1);
+}
+#businessman:hover
+{
+	color: #778899;
+	text-shadow: 0 0 50px #FFFAFA;
+}
+@keyframes animate-businessman {
+	0%
+	{
+		opacity: 0;
+	}
+	50%
+	{
+		opacity: 1;
+	}
+	100%
+	{
+		opacity: 0;
+	}
+}
+.map {
+	font-size: 10pt;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	letter-spacing: 0.5em;
+	position: absolute;
+	top: 90%;
+	left: 90%;
+}

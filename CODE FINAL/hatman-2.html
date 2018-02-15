@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text-html; charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>hatman-2</title>
+	<link rel="stylesheet" type="text/css" href="style-hatman.css">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+</head>
+<style type="text/css">
+	html {
+	background:url('hatman-pattern-2.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+	#jump-king {
+		padding-left: 80pt;
+	}
+	#king {
+	color: white;
+	position: absolute;
+	top: 30%;
+	left: 65%;
+	transform: translate(-50%,-50%);
+	}
+	#king:hover:before 
+	{
+	transform: scale(1.1);
+	}
+	#king:hover 
+	{
+	color: #DAA520;
+	text-shadow: 0 0 50px #FFFAFA;
+	}
+	ul li {
+	list-style: none;
+	float: left;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0.5em;
+	font-size: 20pt;
+	transform-origin: left;
+	animation: animate 3s infinite;
+	}
+	@keyframes animate {
+		0%
+		{
+			opacity: 0;
+		}
+		50%
+		{
+			opacity: 1;
+		}
+		100%
+		{
+			opacity: 0;
+		}
+	}
+</style>
+<body>
+	<div class="image-container fade">
+
+		<a href="king-1.html">
+				<ul id="king">
+					<li>K</li>
+					<li>I</li>
+					<li>N</li>
+					<li>G</li>
+				</ul>
+		</a>
+
+		<div class="text">
+			<div>
+				<p id="jump-king">“This is more entertaining than the visit to the &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;.”</p><br />
+				After five minutes of this exercise the little prince grew tired of the game.<br />
+				“And what should one do to make the hat come down?” <br />
+				<em>“Do you really admire me very much?” </em><br />
+				“What does that mean, ‘admire’?” <br />
+				<em>“To admire means that you regard me as the handsomest, the best-dressed, the richest, and the most intelligent man on this planet.” </em>
+			</div>
+			<div class="title">
+				HATMAN 2
+			</div>
+		</div>
+	</div>
+
+	<a class="prev" href="hatman-1.html">&#10094;</a>
+	<a class="next" href="hatman-3.html">&#10095;</a>
+
+	<a href="home.html"><i class="fas fa-bars"></i></a>
+
+</body>
+</html>

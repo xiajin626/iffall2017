@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text-html; charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>snake-3</title>
+	<link rel="stylesheet" type="text/css" href="style-snake.css">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+</head>
+<style type="text/css">
+	html {
+	background:url('snake-pattern-3.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+	#jump-king {
+		padding-left: 80pt;
+	}
+	#king {
+	color: white;
+	position: absolute;
+	top: 49.8%;
+	left: 63.5%;
+	transform: translate(-50%,-50%);
+	}
+	#king:hover:before 
+	{
+	transform: scale(1.1);
+	}
+	#king:hover 
+	{
+	color: #DAA520;
+	text-shadow: 0 0 50px #FFFAFA;
+	}
+	ul li {
+	list-style: none;
+	float: left;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0.5em;
+	font-size: 20pt;
+	transform-origin: left;
+	animation: animate 3s infinite;
+	}
+	@keyframes animate {
+		0%
+		{
+			opacity: 0;
+		}
+		50%
+		{
+			opacity: 1;
+		}
+		100%
+		{
+			opacity: 0;
+		}
+	}
+</style>
+<body>
+	<div class="image-container fade">
+		<div class="text">
+
+			<a href="king-2.html">
+			<ul id="king">
+			<li>K</li>
+			<li>I</li>
+			<li>N</li>
+			<li>G</li>
+			</ul>
+			</a>
+
+			<div>
+				“Where are the men? It is a little lonely in the desert...” <br />
+				<em>“It is also lonely among men.” </em><br />
+				“You are a funny animal. You are no thicker than a finger...” <br /><br />
+				<p id="jump-king"><em>“But I am more powerful than the finger of a &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;.” </p></em> <br /> 
+				“You are not very powerful. You haven’t even any feet. You cannot even tra
+				<em>“I can carry you farther than any ship could take you. Whomever I touch, I send back to the earth from whence he came...”</em>
+			</div>
+			<div class="title">SNAKE 3</div>
+		</div>
+	</div>
+
+	<a class="prev" href="snake-2.html">&#10094;</a>
+	<a class="next" href="snake-4.html">&#10095;</a>
+
+	<a href="home.html"><i class="fas fa-bars"></i></a>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text-html; charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>snake-2</title>
+	<link rel="stylesheet" type="text/css" href="style-snake.css">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+</head>
+<style type="text/css">
+	html {
+	background:url('snake-pattern-2.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+	#jump-flower {
+		padding-left: 100pt;
+	}
+	#flower {
+	color: white;
+	position: absolute;
+	top: 61%;
+	left: 64%;
+	transform: translate(-50%,-50%);
+	}
+	#flower:hover:before 
+	{
+	transform: scale(1.1);
+	}
+	#flower:hover 
+	{
+	color: #F08080;
+	text-shadow: 0 0 50px #FFFAFA;
+	}
+	ul li {
+	list-style: none;
+	float: left;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0.5em;
+	font-size: 20pt;
+	transform-origin: left;
+	animation: animate 3s infinite;
+	}
+	@keyframes animate {
+		0%
+		{
+			opacity: 0;
+		}
+		50%
+		{
+			opacity: 1;
+		}
+		100%
+		{
+			opacity: 0;
+		}
+	}
+}
+</style>
+<body>
+	<div class="image-container fade">
+		<div class="text">
+
+			<a href="rose-2.html">
+			<ul id="flower">
+			<li>F</li>
+			<li>L</li>
+			<li>O</li>
+			<li>W</li>
+			<li>E</li>
+			<li>R</li>
+			</ul>
+			</a>
+
+			<div>
+				“I wonder, whether the stars are set alight in heaven so that one day each one of us may find his own again... Look at my planet. It is right there above us. But how far away it is!” <br />
+				<em>“It is beautiful. What has brought you here?” </em><br /><br />
+				<p id="jump-flower">“I have been having some trouble with a &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;.”</p>
+				<em>“Ah!” </em><br />
+				And they were both silent. 
+			</div>
+			<div class="title">SNAKE 2</div>
+		</div>
+	</div>
+
+	<a class="prev" href="snake-1.html">&#10094;</a>
+	<a class="next" href="snake-3.html">&#10095;</a>
+
+	<a href="home.html"><i class="fas fa-bars"></i></a>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>home</title>
+	<link rel="stylesheet" href="style-home.css">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<style type="text/css">
+	html {
+	background:url('introduction-pattern.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+	p {
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 5pt;
+	color: white;
+	transform-origin: left;
+	font-size: 15pt;
+	position: absolute;
+	top: 80%;
+	left: 33%;
+	}
+	em {
+		font-weight: bold;
+	}
+	#start {
+	font-size: 20pt;
+	position: absolute;
+	color: white;
+	top: 81.5%;
+	left: 66%;
+	transform: translate(-50%,-50%);
+	animation: animate-start 5s infinite;
+	}
+	#start:hover:before
+	{
+		transform: scale(1.1);
+	}
+	#start:hover
+	{
+		text-shadow: 0 0 50px #FFFAFA;
+	}
+	@keyframes animate-start {
+		0%
+		{
+			opacity: 0;
+		}
+		50%
+		{
+			opacity: 1;
+		}
+		100%
+		{
+			opacity: 0;
+		}
+	}
+</style>
+<body>
+	<p>
+		Based on <em>Le Petit Prince</em>
+	</p>
+
+	<a href="home.html">
+	<ul id="start">
+		<li>S</li>
+		<li>T</li>
+		<li>A</li>
+		<li>R</li>
+		<li>T</li>
+	</ul>
+	</a>
+
+</body>
+</html>
